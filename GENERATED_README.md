@@ -1,7 +1,7 @@
-# markdown_gen
+# asfd
 
   ## Description
-  auto generate markdown using node.js and inquirer
+  asdf
 
   ## Table of Contents (Optional)
   * [Installation](#Installation)
@@ -9,17 +9,19 @@
   * [Credits](#Credits)
   * [License](#License)
   ## Installation
-  install node js and there u go
+  asdf
   ## Usage
-  creating a readme file for a project you have been working on in github
+  asfd
   ## Installation
-  install node js and there u go
-  ##Credits
-  Cody Callahan, Catherine Zeta-Jones
-  ##License
-  
-  ##Questions
+  asdf
+  ## Credits
+  undefined
+  ## License
+  https://choosealicense.com/licenses/mit/
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+
+  ## Questions
   If you have any questions, please use the contact information below
   Email: undefined
   GitHub: https://github.com/undefined
-  
+

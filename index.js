@@ -90,7 +90,7 @@ const questions = [{
     type: 'checkbox',
     name: 'license',
     message: 'Please select a license for this project',
-    choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
+    choices: ['MIT License', 'GNU GPLv3', 'Apache License 2.0',  'Boost Software License 1.0', 'The Unlicense']
   }, {
     type: 'input',
     name: 'username',
@@ -122,7 +122,7 @@ const questions = [{
 const writeToFile = data => {
     fs.writeFile('./GENERATED_README.md', data, err => {
         if (err) throw new Error(err);
-        console.log('Page created! Check out index.html in this directory to see it!');
+        console.log('Page created! Check out the new readme file in this directory to see it!');
       })
 };
 
@@ -131,9 +131,12 @@ const init = () => {
     inquirer.prompt(questions).then(answers => {
         writeToFile(generateMarkdown(answers));
         console.log(answers);
+        console.log(answers.license[0]);
     });
 };
 
 
 // Function call to initialize app
 init();
+
+// console.log(questions)
