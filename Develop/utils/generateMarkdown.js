@@ -74,8 +74,10 @@ function generateMarkdown(data) {
   ## Credits
   ${data.credit}
   ## License
-  ${renderLicenseLink(data)}
   ${renderLicenseBadge(data)}
+  </br>
+  ${renderLicenseLink(data)}
+  
 
   ## Questions
   If you have any questions, please use the contact information below
