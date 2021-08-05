@@ -19,6 +19,18 @@ const questions = [{
     }
   }, {
     type: 'input',
+    name: 'description',
+    message: 'Describe your project',
+    validate: descriptionInput => {
+      if (descriptionInput) {
+        return true;
+      } else {
+        console.log('Please describe your project');
+        return false;
+      }
+    }
+  }, {
+    type: 'input',
     name: 'install',
     message: 'What are the steps required to install your project?',
     validate: instructionsInput => {
@@ -108,7 +120,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
-    fs.writeFile('./README.txt', data, err => {
+    fs.writeFile('./GENERATED_README.md', data, err => {
         if (err) throw new Error(err);
         console.log('Page created! Check out index.html in this directory to see it!');
       })

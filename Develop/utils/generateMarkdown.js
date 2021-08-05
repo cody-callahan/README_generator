@@ -14,6 +14,29 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  ${data.description}
+
+  ## Table of Contents (Optional)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Credits)
+  * [License](#License)
+  ## Installation
+  ${data.install}
+  ## Usage
+  ${data.usage}
+  ## Installation
+  ${data.install}
+  ##Credits
+  ${data.credit}
+  ##License
+  ${data.license}
+  ##Questions
+  If you have any questions, please use the contact information below
+  Email: ${data.emails}
+  GitHub: https://github.com/${data.github}
+  
 `;
 }
 
