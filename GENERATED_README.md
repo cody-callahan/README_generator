@@ -1,7 +1,7 @@
-# asdf
+# codys projjjjj
 
   ## Description
-  asdfasfd
+  its a projjj
 
   ## Table of Contents (Optional)
   * [Installation](#Installation)
@@ -9,13 +9,13 @@
   * [Credits](#Credits)
   * [License](#License)
   ## Installation
-  asdf
+  clone the repo, then run npm install and node index.js
   ## Usage
-  asdfj
+  get the code and run those two functions. If you need someone to build a repo in github and they don't have a ton of time or know what the inputs are, this is a good solution!
   ## Installation
-  asdf
+  clone the repo, then run npm install and node index.js
   ## Credits
-  undefined
+  Cody-Callahan
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
   </br>
@@ -24,6 +24,6 @@
 
   ## Questions
   If you have any questions, please use the contact information below
-  Email: undefined
-  GitHub: https://github.com/undefined
+  Email: codycallahan02@gmail.com
+  GitHub: https://github.com/cody-callahan
 

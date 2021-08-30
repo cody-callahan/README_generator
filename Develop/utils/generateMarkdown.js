@@ -81,8 +81,8 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, please use the contact information below
-  Email: ${data.emails}
-  GitHub: https://github.com/${data.github}
+  Email: ${data.email}
+  GitHub: https://github.com/${data.username}
 
 `;
 }
